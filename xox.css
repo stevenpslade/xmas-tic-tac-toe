@@ -1,0 +1,53 @@
+body {
+  position: relative;
+}
+
+.game-container {
+  position: absolute;
+  padding-top: 9%;
+  margin-left: 32%;
+}
+
+.grid {
+display: inline-block;
+margin-left: 20px;
+margin-bottom: 10px;
+height: 125px;
+width: 125px;
+border-radius: 50%;
+border: 2px solid black;
+}
+
+.rudolph {
+  background: url("https://d13yacurqjgara.cloudfront.net/users/160219/screenshots/2412965/rudolph.jpg") center/230% no-repeat;
+}
+
+.tree {
+  background: url("https://d13yacurqjgara.cloudfront.net/users/96528/screenshots/2400156/presents.jpg") center/175% no-repeat;
+}
+
+.player1 {
+  margin-top: 14%;
+  margin-left: 13%;
+  position: absolute;
+  display: inline-block;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: url("https://d13yacurqjgara.cloudfront.net/users/160219/screenshots/2412965/rudolph.jpg") center/230% no-repeat;
+}
+
+.player2 {
+  margin-top: 27%;
+  margin-left: 13%;
+  position: absolute;
+  display: inline-block;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: url("https://d13yacurqjgara.cloudfront.net/users/96528/screenshots/2400156/presents.jpg") center/175% no-repeat;
+}
+
+.shadow {
+  box-shadow: 0px 1px 56px 1px rgba(255,0,0,1);
+}
